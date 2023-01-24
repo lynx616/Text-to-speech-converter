@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="sp.png">
+    <title>T>>P</title>
+</head>
+
+<body class="back-row-toggle splat-toggle">
+    <div class="wrapper">
+        <header>text to Speech</header>
+
+        <form action="#">
+            <div class="txt-box">
+                <label for="text-box">Enter Text</label><br>
+                <textarea rows="2" id="text-box"></textarea>
+            </div>
+            <div class="vc-box">
+                <label for="voice">select voice</label><br>
+                <select id="voice">
+                    <!-- <option class="opt" value="">Google-Hindi</option>
+                    <option class="opt" value="">Google-Deutsch</option>
+                    <option class="opt" value="">Google-US English</option>
+                    <option class="opt" value="">Google-UK English Male</option>
+                    <option class="opt" value="">Google-UK English Female</option> -->
+                </select><br>
+            </div>
+            <button id="btn">Convert</button>
+        </form>
+
+    </div>
+    <div class="rain front-row"></div>
+    <div class="rain back-row"></div>
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="index.js"></script>
+    <script src="rain.js"></script>
+</body>
+
+</html>
